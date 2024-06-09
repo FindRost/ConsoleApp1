@@ -1,132 +1,132 @@
-﻿//////
-////// See https://aka.ms/new-console-template for more information
-////Console.WriteLine("Hello, World!");
-////int a = 4;
-////int b = 5;
-////if (a > 1)
-////{
-////    if (b > 2)
-////    {
-////        int SUM = a + b;
-////        Console.WriteLine(sum);
-////    }
-////}
+﻿//
+// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
+int a = 4;
+int b = 5;
+if (a > 1)
+{
+if (b > 2)
+{
+int SUM = a + b;
+Console.WriteLine(sum);
+}
+}
 
-////public partial class MainClass
-////{
-////    public double Add(double a, double b
-////        {
-////        return a + b;
-////    })
-////}
-////public partial class MainClass
-////{
-////    public double Add(double a, double b
-////        {
-////        return a - b;
-////    })
-////}
-////public partial class MainClass
-////{
-////    public double Add(double a, double b
-////        {
-////        return a * b;
-////    })
-////}
-////public partial class MainClass
-////{
-////    public double Add(double a, double b
-////        {
-////        return a / b;
-////    })
-////}
-////public partial class MainClass
-////{
-////    public double Add(double a, double b
-////        {
-////        return a * b;
-////    })
-////}
-//////
+public partial class MainClass
+{
+    public double Add(double a, double b
+        {
+        return a + b;
+    })
+}
+public partial class MainClass
+{
+    public double Add(double a, double b
+        {
+        return a - b;
+    })
+}
+public partial class MainClass
+{
+    public double Add(double a, double b
+        {
+        return a * b;
+    })
+}
+public partial class MainClass
+{
+    public double Add(double a, double b
+        {
+        return a / b;
+    })
+}
+public partial class MainClass
+{
+    public double Add(double a, double b
+        {
+        return a * b;
+    })
+}
+//
 
-////using static System.Runtime.InteropServices.JavaScript.JSType;
-////using System.Collections.Generic;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Collections.Generic;
 
-////string r = "Rost";
-////string h = "hello";
-////if (r == h)
-////{
-////    Console.WriteLine("одинковые значения");
-////}
+string r = "Rost";
+string h = "hello";
+if (r == h)
+{
+    Console.WriteLine("одинковые значения");
+}
 
-//public class Person
-//{
-//    public string FirstName { get; set; }
-//    public string LastName { get; set; }
-//    public Person(string firstName, string lastName)
-//    {
-//        FirstName = firstName;
-//        LastName = lastName;
-//    }
-//    public string GetFullName()
-//    {
-//        return $"{FirstName} {LastName}";
-//    }
-//    public void Greet()
-//    {
-//        Console.WriteLine($"Привет, меня зовут {GetFullName()}.");
-//    }
-//}
+public class Person
+{
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+    public Person(string firstName, string lastName)
+    {
+        FirstName = firstName;
+        LastName = lastName;
+    }
+    public string GetFullName()
+    {
+        return $"{FirstName} {LastName}";
+    }
+    public void Greet()
+    {
+        Console.WriteLine($"Привет, меня зовут {GetFullName()}.");
+    }
+}
 
-//public class Program
-//{
-//    public static void Main(string[] args)
-//    {
-//        Console.WriteLine("Введите имя:");
-//        string firstName = Console.ReadLine();
-//        Console.WriteLine("Введите фамилию:");
-//        string lastName = Console.ReadLine();
-//        Person person = new Person(firstName, lastName);
-//        person.Greet();
-//    }
-//}
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Введите имя:");
+        string firstName = Console.ReadLine();
+        Console.WriteLine("Введите фамилию:");
+        string lastName = Console.ReadLine();
+        Person person = new Person(firstName, lastName);
+        person.Greet();
+    }
+}
 
-//public class Person
-//{
-//    public string FirstName { get; set; }
-//    public string LastName { get; set; }
+public class Person
+{
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
 
-//    public Person(string firstName, string lastName)
-//    {
-//        FirstName = firstName;
-//        LastName = lastName;
-//    }
+    public Person(string firstName, string lastName)
+    {
+        FirstName = firstName;
+        LastName = lastName;
+    }
 
-//    public string GetFullName()
-//    {
-//        Console.WriteLine($"{FirstName}");
-//        return $"{FirstName} {LastName}";
-//    }
-//    public string GetName()
-//    {
-//        Console.WriteLine($"{FirstName}");
-//        return FirstName;
-//    }
+    public string GetFullName()
+    {
+        Console.WriteLine($"{FirstName}");
+        return $"{FirstName} {LastName}";
+    }
+    public string GetName()
+    {
+        Console.WriteLine($"{FirstName}");
+        return FirstName;
+    }
 
-//    public void Greet()
-//    {
-//        Console.WriteLine($"Привет, меня зовут {GetFullName()}.");
-//    }
-//}
+    public void Greet()
+    {
+        Console.WriteLine($"Привет, меня зовут {GetFullName()}.");
+    }
+}
 
-//public class Example
-//{
-//    public static void Main(string[] args)
-//    {
-//        Person person = new Person("Тест", "Тестович");
-//        person.Greet();
-//    }
-//}
+public class Example
+{
+    public static void Main(string[] args)
+    {
+        Person person = new Person("Тест", "Тестович");
+        person.Greet();
+    }
+}
 public class Human
 {
     public string Blackeye { get; set; }
